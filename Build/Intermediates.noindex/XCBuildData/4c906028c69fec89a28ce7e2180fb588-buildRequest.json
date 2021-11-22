@@ -1,0 +1,51 @@
+{
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "735dceaba12feadd53e73b53ecc43ffea92c7e784d5669aefc9747ea84a86f3f"
+    }
+  ],
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx11.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/joefazzino/PersonalProjects/Raytracer/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/joefazzino/PersonalProjects/Raytracer/Build",
+      "derivedDataPath" : "/Users/joefazzino/PersonalProjects/Raytracer/Output",
+      "indexDataStoreFolderPath" : "/Users/joefazzino/PersonalProjects/Raytracer/Output/Raytracer/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/joefazzino/PersonalProjects/Raytracer/Output/Raytracer/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/joefazzino/PersonalProjects/Raytracer/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

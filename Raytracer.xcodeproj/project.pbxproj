@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2111B6026A6B8E300C67BF0 /* material_instances.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2111B5E26A6B8E300C67BF0 /* material_instances.cpp */; };
+		A2BA62E226A21F2E000C8306 /* color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2BA62E026A21F2E000C8306 /* color.cpp */; };
+		A2BA62EE26A44E89000C8306 /* rtweekend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2BA62EC26A44E89000C8306 /* rtweekend.cpp */; };
+		A2BA62F126A44F6E000C8306 /* hittable_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2BA62EF26A44F6E000C8306 /* hittable_list.cpp */; };
+		A2BA62F326A4531D000C8306 /* sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2BA62F226A4531D000C8306 /* sphere.cpp */; };
+		A2BA62F626A45577000C8306 /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2BA62F426A45577000C8306 /* camera.cpp */; };
+		A2BA62F826A45E94000C8306 /* vec3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2BA62F726A45E94000C8306 /* vec3.cpp */; };
+		A2BA62FB26A56637000C8306 /* material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2BA62F926A56637000C8306 /* material.cpp */; };
 		A2E7B7E02693619400D3261F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2E7B7DF2693619400D3261F /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +31,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A2111B5E26A6B8E300C67BF0 /* material_instances.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = material_instances.cpp; sourceTree = "<group>"; };
+		A2111B5F26A6B8E300C67BF0 /* material_instances.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = material_instances.hpp; sourceTree = "<group>"; };
+		A26D2DF226B9A9DB006C7E87 /* Raytracer.profdata */ = {isa = PBXFileReference; lastKnownFileType = file; path = Raytracer.profdata; sourceTree = "<group>"; };
+		A2BA62DE26A1E6C3000C8306 /* vec3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vec3.hpp; sourceTree = "<group>"; };
+		A2BA62E026A21F2E000C8306 /* color.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = color.cpp; sourceTree = "<group>"; };
+		A2BA62E126A21F2E000C8306 /* color.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = color.hpp; sourceTree = "<group>"; };
+		A2BA62E426A2255D000C8306 /* ray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ray.hpp; sourceTree = "<group>"; };
+		A2BA62E726A34001000C8306 /* hittable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hittable.hpp; sourceTree = "<group>"; };
+		A2BA62EA26A340F1000C8306 /* sphere.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sphere.hpp; sourceTree = "<group>"; };
+		A2BA62EC26A44E89000C8306 /* rtweekend.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rtweekend.cpp; sourceTree = "<group>"; };
+		A2BA62ED26A44E89000C8306 /* rtweekend.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = rtweekend.hpp; sourceTree = "<group>"; };
+		A2BA62EF26A44F6E000C8306 /* hittable_list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hittable_list.cpp; sourceTree = "<group>"; };
+		A2BA62F026A44F6E000C8306 /* hittable_list.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hittable_list.hpp; sourceTree = "<group>"; };
+		A2BA62F226A4531D000C8306 /* sphere.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sphere.cpp; sourceTree = "<group>"; };
+		A2BA62F426A45577000C8306 /* camera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = camera.cpp; sourceTree = "<group>"; };
+		A2BA62F526A45577000C8306 /* camera.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = camera.hpp; sourceTree = "<group>"; };
+		A2BA62F726A45E94000C8306 /* vec3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vec3.cpp; sourceTree = "<group>"; };
+		A2BA62F926A56637000C8306 /* material.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = material.cpp; sourceTree = "<group>"; };
+		A2BA62FA26A56637000C8306 /* material.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = material.hpp; sourceTree = "<group>"; };
 		A2E7B7DC2693619400D3261F /* Raytracer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Raytracer; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E7B7DF2693619400D3261F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,11 +65,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A26D2DF126B9A9DB006C7E87 /* OptimizationProfiles */ = {
+			isa = PBXGroup;
+			children = (
+				A26D2DF226B9A9DB006C7E87 /* Raytracer.profdata */,
+			);
+			path = OptimizationProfiles;
+			sourceTree = "<group>";
+		};
 		A2E7B7D32693619400D3261F = {
 			isa = PBXGroup;
 			children = (
 				A2E7B7DE2693619400D3261F /* Raytracer */,
 				A2E7B7DD2693619400D3261F /* Products */,
+				A26D2DF126B9A9DB006C7E87 /* OptimizationProfiles */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +94,24 @@
 			isa = PBXGroup;
 			children = (
 				A2E7B7DF2693619400D3261F /* main.cpp */,
+				A2BA62DE26A1E6C3000C8306 /* vec3.hpp */,
+				A2BA62F726A45E94000C8306 /* vec3.cpp */,
+				A2BA62E026A21F2E000C8306 /* color.cpp */,
+				A2BA62E126A21F2E000C8306 /* color.hpp */,
+				A2BA62E426A2255D000C8306 /* ray.hpp */,
+				A2BA62E726A34001000C8306 /* hittable.hpp */,
+				A2BA62EA26A340F1000C8306 /* sphere.hpp */,
+				A2BA62F226A4531D000C8306 /* sphere.cpp */,
+				A2BA62EC26A44E89000C8306 /* rtweekend.cpp */,
+				A2BA62ED26A44E89000C8306 /* rtweekend.hpp */,
+				A2BA62EF26A44F6E000C8306 /* hittable_list.cpp */,
+				A2BA62F026A44F6E000C8306 /* hittable_list.hpp */,
+				A2BA62F426A45577000C8306 /* camera.cpp */,
+				A2BA62F526A45577000C8306 /* camera.hpp */,
+				A2BA62F926A56637000C8306 /* material.cpp */,
+				A2BA62FA26A56637000C8306 /* material.hpp */,
+				A2111B5E26A6B8E300C67BF0 /* material_instances.cpp */,
+				A2111B5F26A6B8E300C67BF0 /* material_instances.hpp */,
 			);
 			path = Raytracer;
 			sourceTree = "<group>";
@@ -118,7 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2BA62E226A21F2E000C8306 /* color.cpp in Sources */,
+				A2BA62EE26A44E89000C8306 /* rtweekend.cpp in Sources */,
+				A2BA62F126A44F6E000C8306 /* hittable_list.cpp in Sources */,
 				A2E7B7E02693619400D3261F /* main.cpp in Sources */,
+				A2111B6026A6B8E300C67BF0 /* material_instances.cpp in Sources */,
+				A2BA62FB26A56637000C8306 /* material.cpp in Sources */,
+				A2BA62F626A45577000C8306 /* camera.cpp in Sources */,
+				A2BA62F826A45E94000C8306 /* vec3.cpp in Sources */,
+				A2BA62F326A4531D000C8306 /* sphere.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +301,7 @@
 		A2E7B7E42693619400D3261F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -247,6 +310,7 @@
 		A2E7B7E52693619400D3261F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

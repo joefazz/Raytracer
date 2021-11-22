@@ -1,0 +1,67 @@
+{
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "735dceaba12feadd53e73b53ecc43ffea92c7e784d5669aefc9747ea84a86f3f"
+    }
+  ],
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "install",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx11.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/joefazzino/PersonalProjects/Raytracer/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/joefazzino/PersonalProjects/Raytracer/Build",
+      "derivedDataPath" : "/Users/joefazzino/PersonalProjects/Raytracer/Output",
+      "indexDataStoreFolderPath" : "/Users/joefazzino/PersonalProjects/Raytracer/Output/Raytracer/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/joefazzino/PersonalProjects/Raytracer/Output/Raytracer/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/joefazzino/PersonalProjects/Raytracer/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "install",
+          "ASSET_PACK_FOLDER_PATH" : "/Users/joefazzino/PersonalProjects/Raytracer/Build/Intermediates.noindex/ArchiveIntermediates/Raytracer/InstallationBuildProductsLocation/OnDemandResources",
+          "BITCODE_GENERATION_MODE" : "bitcode",
+          "DEPLOYMENT_LOCATION" : "YES",
+          "DEPLOYMENT_POSTPROCESSING" : "YES",
+          "DSTROOT" : "/Users/joefazzino/PersonalProjects/Raytracer/Build/Intermediates.noindex/ArchiveIntermediates/Raytracer/InstallationBuildProductsLocation",
+          "EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE" : "NO",
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ENABLE_DATA_STORE" : "NO",
+          "MESSAGES_APPLICATION_EXTENSION_SUPPORT_FOLDER_PATH" : "/Users/joefazzino/PersonalProjects/Raytracer/Build/Intermediates.noindex/ArchiveIntermediates/Raytracer/BuildProductsPath/MessagesApplicationExtensionSupport",
+          "MESSAGES_APPLICATION_SUPPORT_FOLDER_PATH" : "/Users/joefazzino/PersonalProjects/Raytracer/Build/Intermediates.noindex/ArchiveIntermediates/Raytracer/BuildProductsPath/MessagesApplicationSupport",
+          "OBJROOT" : "/Users/joefazzino/PersonalProjects/Raytracer/Build/Intermediates.noindex/ArchiveIntermediates/Raytracer/IntermediateBuildFilesPath",
+          "SHARED_PRECOMPS_DIR" : "/Users/joefazzino/PersonalProjects/Raytracer/Build/Intermediates.noindex/ArchiveIntermediates/Raytracer/PrecompiledHeaders",
+          "SWIFT_STDLIB_TOOL_UNSIGNED_DESTINATION_DIR" : "/Users/joefazzino/PersonalProjects/Raytracer/Build/Intermediates.noindex/ArchiveIntermediates/Raytracer/BuildProductsPath/SwiftSupport",
+          "SYMROOT" : "/Users/joefazzino/PersonalProjects/Raytracer/Build/Intermediates.noindex/ArchiveIntermediates/Raytracer/BuildProductsPath",
+          "WATCHKIT_2_SUPPORT_FOLDER_PATH" : "/Users/joefazzino/PersonalProjects/Raytracer/Build/Intermediates.noindex/ArchiveIntermediates/Raytracer/BuildProductsPath/WatchKitSupport2",
+          "WATCHKIT_SUPPORT_FOLDER_PATH" : "/Users/joefazzino/PersonalProjects/Raytracer/Build/Intermediates.noindex/ArchiveIntermediates/Raytracer/BuildProductsPath/WatchKitSupport"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "archive",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
